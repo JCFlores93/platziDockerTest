@@ -1,9 +1,9 @@
 machine: 
     services:
-    -docker
+    - docker
 dependencies:
     override:
-    -docker build -t platzi .
+    - docker build -t platzi .
 test:
     override:
-    -docker run platzi npm test
+    - docker run platzi npm test
