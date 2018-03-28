@@ -6,4 +6,4 @@ dependencies:
 	-docker build -t platzi .
 test:
 	override:
-	-docker run platzi npm test
+    -docker run platzi npm test
